@@ -38,7 +38,8 @@
         },
         "intakeDate": {
             "description": "Date pet was taken into shelter",
-            "type": "date"
+            "type": "string",
+            "format": "date"
         },
         "numIntakes": {
             "description": "Number of times animal has been in shelter, including current intake",
@@ -47,4 +48,45 @@
         }
     },
     "required": ["petID", "petName", "species", "breed", "markings", "intakeDate", "numIntakes"]
+}
+
+
+{
+   "petID": 1,
+   "petName": "Emma",
+   "species": "Canine",
+   "breed": ["bulldog"],
+   "markings": ["black", "white chest patch"],
+   "intakeDate": "2011-10-25",
+   "numIntakes": 1
+}
+
+{
+    "petID": 2,
+    "petName": "Charles",
+    "species": "Canine",
+    "breed": ["pit bull", "boxer", "chihuahua"],
+    "markings": ["brown", "white"],
+    "intakeDate": "2014-04-13",
+    "numIntakes": 3
+}
+
+{
+    "petID": 3,
+    "petName": "Dennis",
+    "species": "Feline",
+    "breed": ["DSH"],
+    "markings": ["orange", "tabby"],
+    "intakeDate": "2020-05-25",
+    "numIntakes": 2
+}
+
+{
+    "petID": 4,
+    "petName": "Nissa",
+    "species": "Feline",
+    "breed": ["DLH"],
+    "markings": ["black", "white", "tuxedo"],
+    "intakeDate": "2018-06-01",
+    "numIntakes": 2
 }
