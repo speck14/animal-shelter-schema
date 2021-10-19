@@ -25,7 +25,7 @@
                 "type": "string"
             },
             "minItems": 1,
-            "uniqueItems": "true"
+            "uniqueItems": true
         },
         "markings": {
             "description": "Coloration and markings of pet",
@@ -34,7 +34,7 @@
                 "type": "string"
             },
             "minItems": 1,
-            "uniqueItems": "true"
+            "uniqueItems": true
         },
         "intakeDate": {
             "description": "Date pet was taken into shelter",
