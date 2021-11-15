@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "file:///C:\\Users\\shannon.peck\\Documents\\JSON-practice\\JSON_schema_project\\date.json",
+  "title": "Date",
+  "description": "Date data",
+  "type": "object",
+  "properties": {
+    "type": "string",
+    "format": "date"
+  }
+}

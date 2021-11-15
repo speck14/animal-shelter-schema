@@ -1,0 +1,48 @@
+[
+  {
+    "petID": 1,
+    "petName": "Emma",
+    "animalDescription":  {
+      "species": "Canine",
+      "breed": ["bulldog"],
+      "markings": ["black", "white chest patch"]
+    },
+    "dateOfBirth": "2008-10-25",
+    "intakeDate": "2011-10-25",
+    "numIntakes": 1
+  },  
+  {
+    "petID": 2,
+    "petName": "Charles",
+    "animalDescription": {
+      "species": "Canine",
+      "breed": ["pit bull", "boxer", "chihuahua"],
+      "markings": ["brown", "white"]
+    },
+    "intakeDate": "2014-04-13",
+    "numIntakes": 3
+  },  
+  {
+    "petID": 3,
+    "petName": "Dennis",
+    "animalDescription": {
+      "species": "Feline",
+      "breed": ["DSH"],
+      "markings": ["orange", "tabby"]
+    },
+    "dateOfBirth": "2020-04-24",
+    "intakeDate": "2020-05-25",
+    "numIntakes": 2
+  },  
+  {
+    "petID": 4,
+    "petName": "Nissa",
+    "animalDescription": {
+      "species": "Feline",
+      "breed": ["DLH"],
+      "markings": ["black", "white", "tuxedo"]
+    },
+    "intakeDate": "2018-06-01",
+    "numIntakes": 2
+  }
+]

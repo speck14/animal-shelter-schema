@@ -1,0 +1,35 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "file:///C:\\Users\\shannon.peck\\Documents\\JSON-practice\\JSON_schema_project\\animal-shelter-schema\\extended-schema\\extended_schema.json",
+    "title": "Animal Shelter JSON",
+    "description": "Animal in an animal shelter",
+    "type": "object",
+    "properties": {
+        "petID": {
+            "description": "The unique identifier for the pet",
+            "type": "integer"
+        },
+        "petName": {
+            "description": "Name of pet",
+            "type": "string"
+        },
+        "animalDescription": {
+            "description": "description of pet",
+            "$ref": "animal_description.json"
+        },
+        "dateOfBirth": {
+        "description": "Approximate date of birth",  
+        "$ref": "date.json"
+        },
+        "intakeDate": {
+            "description": "Date pet was taken into shelter"
+        },
+        "numIntakes": {
+            "description": "Number of times animal has been in shelter, including current intake",
+            "type": "integer",
+            "minimum": 1
+        }
+    },
+    "required": ["petID", "petName", "animalDescription", "intakeDate", "numIntakes"]
+}
+

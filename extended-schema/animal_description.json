@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "file:///C:\\Users\\shannon.peck\\Documents\\JSON-practice\\JSON_schema_project\\animal-shelter-schema\\extended-schema\\animal_description.json",
+  "title": "Animal Description",
+  "description": "Description of an animal in animal shelter",
+  "type": "object",
+  "properties": {
+    "animalDescription": {
+      "description": "Description of animal",
+      "type": "object",
+      "properties": {
+        "species": {
+          "description": "Species of animal",
+          "type": "string",
+          "enum": ["Feline", "Canine"]
+          },
+          "breed": {
+            "description": "Breed(s) of pet",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "markings": {
+            "description": "Coloration and markings of pet",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          }
+      },
+      "required": [ "species", "breed", "markings"]
+    }  
+  }
+}
