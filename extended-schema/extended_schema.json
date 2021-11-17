@@ -15,14 +15,15 @@
         },
         "animalDescription": {
             "description": "description of pet",
-            "$ref": "animal_description.json"
+            "$ref": "animal_description.json#/animalDescription"
         },
         "dateOfBirth": {
         "description": "Approximate date of birth",  
-        "$ref": "date.json"
+        "$ref": "date.json#/Date"
         },
         "intakeDate": {
-            "description": "Date pet was taken into shelter"
+            "description": "Date pet was taken into shelter",
+            "$ref": "date.json#/Date"
         },
         "numIntakes": {
             "description": "Number of times animal has been in shelter, including current intake",

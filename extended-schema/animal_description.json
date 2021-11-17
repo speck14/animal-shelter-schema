@@ -20,8 +20,7 @@
             "items": {
                 "type": "string"
             },
-            "minItems": 1,
-            "uniqueItems": true
+            "$ref": "#/itemReqs"
           },
           "markings": {
             "description": "Coloration and markings of pet",
@@ -29,9 +28,12 @@
             "items": {
                 "type": "string"
             },
-            "minItems": 1,
-            "uniqueItems": true
+            "$ref": "#/itemReqs"
           }
+      },
+      "itemReqs": {
+        "minItems": 1,
+        "uniqueItems": true
       },
       "required": [ "species", "breed", "markings"]
     }  
