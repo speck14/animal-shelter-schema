@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "C:\\Users\\shannon.peck\\Documents\\JSON practice",
+    "$id": "file:///C:\\Users\\shannon.peck\\Documents\\JSON-practice\\JSON_schema_project\\animal-shelter-schema\\pet_schema.json",
     "title": "Animal Shelter JSON",
     "description": "Animal in an animal shelter",
     "type": "object",
