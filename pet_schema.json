@@ -43,7 +43,7 @@
         },
         "numIntakes": {
             "description": "Number of times animal has been in shelter, including current intake",
-            "type": "int",
+            "type": "integer",
             "minimum": 1
         }
     },
