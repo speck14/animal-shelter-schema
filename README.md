@@ -21,3 +21,8 @@ Refactor your previously created schema into 2-3 separate schemas using the $ref
 Validate your schema and also provide 2-3 examples of data which match it.
 
 *Located in extended-schema folder*
+
+## JSON Schema Validator
+Leaning heavily on available libraries, write a js function that accepts an object and a schema and returns true if the object matches the schema.
+
+*Located in validator folder*
